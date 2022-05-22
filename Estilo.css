@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: aliceblue;
+  color: black;
+  padding-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Contenedor {
+  width: 90%;
+  max-width: 1000px;
+  max-height: 1080px;
+  border: 10px solid black;
+  margin: auto;
+  line-height: 40px;
+  text-align: center;
+}
+
+.Contenedor > div {
+  display: block;
+  padding: 20px;
+  color: black;
+  background-color: rgb(192, 196, 199);
+}
+
+img {
+  width: 200px;
+  height: 230px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imge {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  left: 48px;
+  top: 447px;
+  padding-top: 0px;
+}
+
+#mensaje {
+  top: 330px;
+}
+
+.Dos {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+#pading {
+  padding-top: 30px;
+}
+
+.Uno {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#alinear-izquierda {
+  max-height: 50px;
+  position: absolute;
+  right: 564px;
+  top: 570px;
+}
+
+#alinear {
+  max-height: 50px;
+  position: absolute;
+  right: 564px;
+  top: 640px;
+}
+
+#alineara {
+  max-height: 50px;
+  position: absolute;
+  right: 564px;
+  top: 710px;
+}
+
+.hobbie {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+h2 {
+  padding: 15px;
+  line-height: 0px;
+  text-align: justify;
+  width: 300px;
+  background-color: antiquewhite;
+}
+
+p {
+  text-align: justify;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#asistir {
+  text-align: left;
+  padding-top: 50px;
+}

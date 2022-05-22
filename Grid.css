@@ -1,0 +1,98 @@
+.Contenedor {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1080px 1080px;
+  grid-gap: 20px;
+}
+
+#columna {
+  padding: 0px;
+}
+
+#parrafo {
+  top: 590px;
+}
+
+#fechas {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  line-height: 20px;
+  text-align: left;
+  position: absolute;
+  top: 615px;
+  right: 80px;
+}
+
+#fechas1 {
+  width: 300px;
+  height: 30px;
+  padding-top: 10px;
+  padding: 10px;
+  line-height: 20px;
+  text-align: left;
+  position: absolute;
+  top: 670px;
+  right: 80px;
+}
+
+#fechas2 {
+  width: 300px;
+  height: 60px;
+  padding-top: 10px;
+  padding: 10px;
+  line-height: 20px;
+  text-align: left;
+  position: absolute;
+  top: 730px;
+  right: 80px;
+}
+
+#fechas3 {
+  width: 300px;
+  height: 50px;
+  padding-top: 10px;
+  padding: 10px;
+  text-align: left;
+  line-height: 20px;
+  position: absolute;
+  top: 780px;
+  right: 80px;
+}
+
+#parrafo {
+  width: 70px;
+  height: 0px;
+  position: absolute;
+  top: 610px;
+}
+
+#parrafo1 {
+  width: 70px;
+  height: 10px;
+  position: absolute;
+  top: 660px;
+}
+
+#parrafo2 {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  top: 720px;
+}
+
+#parrafo3 {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  top: 775px;
+}
+
+#asiste {
+  width: 350px;
+  height: 200px;
+  text-align: left;
+  position: absolute;
+  top: 905px;
+  right: 60px;
+}
