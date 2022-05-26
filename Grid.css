@@ -1,7 +1,7 @@
 .Contenedor {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1080px 1080px;
+  grid-template-rows: 1050px 1050px;
   grid-gap: 20px;
 }
 
@@ -10,7 +10,35 @@
 }
 
 #parrafo {
-  top: 590px;
+  width: 70px;
+  height: 0px;
+  position: absolute;
+  top: 580px;
+  right: 970px;
+}
+
+#parrafo1 {
+  width: 70px;
+  height: 10px;
+  position: absolute;
+  top: 640px;
+  right: 970px;
+}
+
+#parrafo2 {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  top: 700px;
+  right: 970px;
+}
+
+#parrafo3 {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  top: 760px;
+  right: 970px;
 }
 
 #fechas {
@@ -20,8 +48,8 @@
   line-height: 20px;
   text-align: left;
   position: absolute;
-  top: 615px;
-  right: 80px;
+  top: 590px;
+  right: 600px;
 }
 
 #fechas1 {
@@ -32,8 +60,8 @@
   line-height: 20px;
   text-align: left;
   position: absolute;
-  top: 670px;
-  right: 80px;
+  top: 650px;
+  right: 600px;
 }
 
 #fechas2 {
@@ -44,8 +72,8 @@
   line-height: 20px;
   text-align: left;
   position: absolute;
-  top: 730px;
-  right: 80px;
+  top: 710px;
+  right: 600px;
 }
 
 #fechas3 {
@@ -56,36 +84,14 @@
   text-align: left;
   line-height: 20px;
   position: absolute;
-  top: 780px;
-  right: 80px;
+  top: 770px;
+  right: 600px;
 }
 
-#parrafo {
-  width: 70px;
-  height: 0px;
+#fechita {
   position: absolute;
-  top: 610px;
-}
-
-#parrafo1 {
-  width: 70px;
-  height: 10px;
-  position: absolute;
-  top: 660px;
-}
-
-#parrafo2 {
-  width: 70px;
-  height: 20px;
-  position: absolute;
-  top: 720px;
-}
-
-#parrafo3 {
-  width: 70px;
-  height: 20px;
-  position: absolute;
-  top: 775px;
+  top: 860px;
+  right: 1000px;
 }
 
 #asiste {
@@ -93,6 +99,6 @@
   height: 200px;
   text-align: left;
   position: absolute;
-  top: 905px;
-  right: 60px;
+  top: 870px;
+  right: 560px;
 }
